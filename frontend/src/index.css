@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vintage-dark: #1a1511;
+  --color-vintage-cream: #f4ecd8;
+  --color-vintage-gold: #c5a059;
+  --color-vintage-bronze: #8c6239;
+  --color-vintage-paper: #e8dbce;
+}
+
+body {
+  background-color: var(--color-vintage-cream);
+  color: var(--color-vintage-dark);
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
